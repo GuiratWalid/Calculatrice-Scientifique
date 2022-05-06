@@ -1,0 +1,31 @@
+module ConvertApp
+{
+	interface Convert
+	{
+                string decimalToBinary(in long decimal);
+
+                string decimalToOctal(in long decimal);
+
+		string decimalToHexadecimal(in long decimal);
+
+                string BinaryToDecimal(in string binary);
+
+                string binaryToOctal(in string binary);
+
+		string binaryToHexadecimal(in string binary);
+
+                string octalToBinary(in long octal);
+
+                string octalToDecimal(in long octal);
+
+		string octalToHexaDecimal(in long octal);
+
+                string hexadecimalToBinary(in string hexadecimal);
+
+                string hexadecimalToOctal(in string hexadecimal);
+
+		string hexadecimalToDecimal(in string hexadecimal);
+		
+		void shutdown();
+	};
+};

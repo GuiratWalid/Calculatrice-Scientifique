@@ -1,0 +1,21 @@
+module HistoryApp
+{
+	interface History
+	{
+                typedef sequence<string> list;
+
+                void addCalculHistory(in string cal);
+
+                list getCalculHistory();
+
+                void deleteCalculHistory();
+
+                void addConvertHistory(in string cal);
+
+                list getConvertHistory();
+
+                void deleteConvertHistory();    
+		
+		void shutdown();
+	};
+};
